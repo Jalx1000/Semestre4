@@ -1,0 +1,40 @@
+//VECTOR A CADENA
+
+AnsiString VStr(TStringGrid *v,byte n)
+{AnsiString Cad;
+	if (n==0)
+		 Cad="0";
+	else if(n==1){
+		 Cad="1";
+	}else{
+			ShowMessage(Cad);
+			Cad=VStr(v,n-2);
+			Cad=Cad+(v->Cells[n-2][0])+StrToInt(v->Cells[n-1][0]);
+			ShowMessage(Cad);
+	}
+	return Cad;
+}
+
+void __fastcall TForm1::Button11Click(TObject *Sender)
+{
+	Edit2->Text=VStr(StringGrid1,StringGrid1->ColCount);
+
+///INVERTIR CADENA
+
+void Invertir3(AnsiString &x)
+{byte n=x.Length();
+	if(n>1){
+		AnsiString y=x.SubString(1,2);
+		x.Delete(1,2);
+		Invertir3(x);
+		x=x+y[2]+y[1];
+	}
+}
+
+void __fastcall TForm1::Button7Click(TObject *Sender)
+{AnsiString a;
+	a=Edit1->Text;
+	Invertir3(a);
+	Edit1->Text=a;
+
+}

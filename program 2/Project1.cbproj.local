@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/22 21:30:05.000.581,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2022/07/22 21:30:05.000.417,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022/10/07 17:05:01.000.634,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022/10/07 17:05:02.000.805,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2022/10/08 07:13:14.000.784,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\titi\PROGRAMACION\sem4\program 2\simpleyCadenas.dfm</Transaction>
+    <Transaction>2022/10/08 07:13:14.000.784,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.cpp=E:\titi\PROGRAMACION\sem4\program 2\simpleyCadenas.cpp</Transaction>
+    <Transaction>2022/10/08 07:13:14.000.784,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.h=E:\titi\PROGRAMACION\sem4\program 2\simpleyCadenas.h</Transaction>
+    <Transaction>2022/10/08 07:13:17.000.471,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=E:\titi\PROGRAMACION\sem4\program 2\Project1PCH1.h</Transaction>
+    <Transaction>2022/10/08 07:13:20.000.111,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1.cbproj=E:\titi\PROGRAMACION\sem4\program 2\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
